@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Table with 100 Rows</title>
-</head>
 
 <body>
     <table border="1">
