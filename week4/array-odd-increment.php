@@ -13,6 +13,7 @@
 
     foreach ($odd_numbers as $index => $value) {  // Loop through the array and display each element as specified
         echo "{$index}st element - {$value}\n";  // Display the index and value of each element
+        echo "<br>"
     }
 
 
