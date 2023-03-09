@@ -11,7 +11,7 @@
     }
 
     for ($i = 0; $i < count($arr); $i++) {
-        echo $arr[$i] . "<br>";
+        echo ($i + 1) . "st element - " .  $arr[$i] . "<br>";
     }
 
 
