@@ -4,15 +4,15 @@
 <body>
 
     <?php
-    $odd_numbers = array();  // Create an empty array to store the odd numbers
+    $odd_numbers = array();
 
-    for ($i = 1; $i <= 100; $i += 2) {  // Loop through the odd numbers from 1 to 100
-        $index = ($i + 1) / 2;  // Calculate the index of the current element in the array
-        $odd_numbers[$index] = $i;  // Add the current odd number to the array at the calculated index
+    for ($i = 1; $i <= 100; $i += 2) {
+        $index = ($i + 1) / 2;
+        $odd_numbers[$index] = $i;
     }
 
-    foreach ($odd_numbers as $index => $value) {  // Loop through the array and display each element as specified
-        echo "{$index}st element - {$value}\n";  // Display the index and value of each element
+    foreach ($odd_numbers as $index => $value) {
+        echo "{$index}st element - {$value}\n";
         echo "<br>";
     }
 
