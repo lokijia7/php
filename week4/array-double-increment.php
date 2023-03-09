@@ -10,6 +10,11 @@
         $arr[$i] = $arr[$i - 1] * 2;
     }
 
+    for ($i = 0; $i < count($arr); $i++) {
+        echo $arr[$i] . "<br>";
+    }
+
+
 
 
 
