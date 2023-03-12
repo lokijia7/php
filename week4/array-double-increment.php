@@ -10,8 +10,8 @@
         $arr[$i] = $arr[$i - 1] * 2;
     }
 
-    foreach ($odds as $key => $value) {
-        echo ($key + 1) . "st element - " . $value . "<br>";
+    for ($i = 0; $i < count($arr); $i++) {
+        echo ($i + 1) . "st element - " .  $arr[$i] . "<br>";
     }
 
 
