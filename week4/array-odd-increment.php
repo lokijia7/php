@@ -15,8 +15,8 @@
         }
     }
 
-    for ($i = 0; $i < count($odd_nums); $i++) {
-        echo ($i + 1) . "st element - " . $odd_nums[$i] . "<br>";
+    foreach ($odds as $key => $value) {
+        echo ($key + 1) . "st element - " . $value . "<br>";
     }
 
 
