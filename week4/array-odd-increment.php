@@ -15,7 +15,7 @@
         }
     }
 
-    foreach ($odds as $key => $value) {
+    foreach ($odd_nums as $key => $value) {
         echo ($key + 1) . "st element - " . $value . "<br>";
     }
 
