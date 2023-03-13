@@ -9,6 +9,10 @@
         $array[$i] = $array[$i - 1] * 2;
     }
 
+    for ($i = 0; $i < count($arr); $i++) {
+        echo ($i + 1) . "st.element-" . $arr[$i] . "<br>";
+    }
+
     ?>
 
 
