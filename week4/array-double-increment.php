@@ -4,15 +4,16 @@
 <body>
 
     <?php
-    $array = [1];
-    for ($i = 1; $i < 10; $i++) {
-        $array[$i] = $array[$i - 1] * 2;
+    $arr = array();
+    $num = 1;
+    for ($i = 1; $i <= 10; $i++) {
+        $arr[] = $num;
+        $num *= $num;
     }
 
-    for ($i = 0; $i < count($array); $i++) {
-        echo ($i + 1) . "st.element-" . $array[$i] . "<br>";
+    foreach ($arr as $key => $value) {
+        echo ($key + 1) . "st element - " .  $value . "<br>";
     }
-
     ?>
 
 
