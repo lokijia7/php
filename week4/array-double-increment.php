@@ -6,7 +6,7 @@
     <?php
     $arr = array(1);
     for ($i = 1; $i < 10; $i++) {
-        $arr[$i] = $arr[$i - 1] * 2;
+        $arr[$i] = $arr[$i - 1] * $arr[$i];
     }
 
     for ($i = 0; $i < 10; $i++) {
