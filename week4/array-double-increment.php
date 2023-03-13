@@ -7,8 +7,7 @@
     $arr = array();
     $num = 1;
     for ($i = 1; $i <= 10; $i++) {
-        $arr[] = $doublenum;
-        $num *= $doublenum;
+        $arr[$i] = $arr[$i - 1] * 2;
     }
 
     foreach ($arr as $key => $value) {
