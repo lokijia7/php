@@ -4,11 +4,10 @@
 <body>
 
     <?php
-    $arr = array();
-    $num = 1;
+    $arr = array(1);
+
     for ($i = 1; $i < 10; $i++) {
-        $arr[] = $num;
-        $num* = 2;
+        $arr[] = $arr[$i - 1] * 2;
     }
 
     foreach ($arr as $key => $value) {
